@@ -21,6 +21,7 @@
     "parcel": "^2.0.1"
   },
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "cookie-parser": "^1.4.6"
   }
 }
