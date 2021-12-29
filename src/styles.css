@@ -1,4 +1,136 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    background-color: rgb(238, 154, 128);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.see-more-text {
+    display: table-cell;
+    padding: 9px;
+    font-size: 14px;
+    color: grey;
+}
+
+.profile {
+    flex-grow: 1;
+    display: flex;
+}
+
+.profile-image {
+    padding: 8px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-info-title {
+    font-weight: bold;
+}
+
+.profile-info-followers {
+    font-size: 10px;
+    color: grey;
+}
+
+.profile-info-date {
+    font-size: 10px;
+    color: grey;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    padding: 8px;
+}
+
+.body-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-title {
+    padding: 8px;
+}
+
+.text-subtitle-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-subtitle {
+    padding: 8px;
+}
+
+.text-image {
+}
+
+.text-image-caption-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.text-image-caption-subtitle {
+    color: grey;
+    padding: 0px 8px 8px;
+    font-size: 14px;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-info-reactions {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    color: grey;
+    font-size: 14px;
+}
+
+.text-info-comments-amount {
+    color: grey;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.bottom-bottoms {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+}
+
+.bottom-button-text {
+    padding: 4px;
+    font-weight: bold;
+}
+
+.icons {
+    padding: 8px;
 }
